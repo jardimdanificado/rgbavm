@@ -4,7 +4,7 @@ local util = require "util"
 local memory = {}
 local pointer = {}
 
-love.graphics.setPointSize(10)
+love.graphics.setPointSize(4)
 
 local f = 0
 for y = 0, 360/love.graphics.getPointSize(), 1 do
